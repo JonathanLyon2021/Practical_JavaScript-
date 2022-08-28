@@ -16,3 +16,20 @@ while (number > 0) {
 alert('The total is ' + total);
 // 20+20+20+30+0 =  90
 
+
+/////////While loop revision.
+///change the numbers to read 0,2, 4, 6, 8
+
+var x = 1; 
+while (x <= 4) {
+  console.log(x);
+  x = x + 1;
+}
+
+//solution code
+
+var x = 0; 
+while (x <= 8) {
+  console.log(x);
+  x = x + 2;
+}
