@@ -2,3 +2,17 @@ var name = prompt('What is your name?');
 
 alert('Hello ' + name + '.\nWelcome to level 2 JavaScript!');
 
+/////////////////////////////////////////////////
+
+//Add the numbers
+var total = 0;
+var number = prompt('Enter a number');
+
+while (number > 0) {
+	total = total + Number(number);
+	number = prompt('Enter the next number');
+}
+
+alert('The total is ' + total);
+// 20+20+20+30+0 =  90
+
