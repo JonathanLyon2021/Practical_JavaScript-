@@ -1,9 +1,7 @@
 var name = prompt('What is your name?');
 
 alert('Hello ' + name + '.\nWelcome to level 2 JavaScript!');
-
 /////////////////////////////////////////////////
-
 //Add the numbers
 var total = 0;
 var number = prompt('Enter a number');
@@ -16,9 +14,8 @@ while (number > 0) {
 alert('The total is ' + total);
 // 20+20+20+30+0 =  90
 
-
 /////////While loop revision.
-///change the numbers to read 0,2, 4, 6, 8
+///change the numbers to read "0,2, 4, 6, 8"
 
 var x = 1; 
 while (x <= 4) {
@@ -27,9 +24,19 @@ while (x <= 4) {
 }
 
 //solution code
-
 var x = 0; 
 while (x <= 8) {
   console.log(x);
   x = x + 2;
+}
+
+///For loop revision
+//Change numbers to read "4,8,12,16,20"
+for (var y = 1; y <= 4; y = y + 1) {
+  console.log(y);
+}
+
+//solution code
+for (var y = 4; y <= 20; y = y + 4) {
+  console.log(y);
 }
