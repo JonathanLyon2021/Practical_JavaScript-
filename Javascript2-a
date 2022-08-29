@@ -14,7 +14,7 @@ alert('The total is ' + total);
 // 20+20+20+30+0 =  90
 
 /////////While loop revision.
-///change the numbers to read "0,2, 4, 6, 8"
+///Change the numbers to read "0,2, 4, 6, 8"
 
 var x = 1; 
 while (x <= 4) {
@@ -29,13 +29,13 @@ while (x <= 8) {
   x = x + 2;
 }
 
-///For loop revision
+///For loop Revision
 //Change numbers to read "4,8,12,16,20"
 for (var y = 1; y <= 4; y = y + 1) {
   console.log(y);
 }
 
-//solution code
+//Solution code
 for (var y = 4; y <= 20; y = y + 4) {
   console.log(y);
 }
