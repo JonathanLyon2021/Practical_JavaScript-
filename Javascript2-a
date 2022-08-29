@@ -1,5 +1,4 @@
 var name = prompt('What is your name?');
-
 alert('Hello ' + name + '.\nWelcome to level 2 JavaScript!');
 /////////////////////////////////////////////////
 //Add the numbers
