@@ -1,13 +1,7 @@
-
-class ClassMates{
-	constructor(name,age){
-    	this.name = name;
-      	this.age = age;
-    }
-	displayInfo(){
-    	return (this.name + "is " + this.age + " years old!");
-    }
+function Classmate(name, age, height, weight, sex) {
+    this.name = name;
+    this.age = age;
+    this.height = height;
+    this.weight = weight;
+    this.sex = sex;
 }
-
-let classmate = new ClassMates("Mike Will",15);
-classmate.displayInfo();  // result: Mike Will is 15 years old!
