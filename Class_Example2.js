@@ -9,3 +9,6 @@ function Classmate(name, age, height, weight, sex) {
 const person2 = new Classmate("Jonathan", 36, 5.11, 200, "Male");
 const person1 = new Classmate("Buggie", 19, 5.4, 115, "Female");
 
+Classmate.prototype.showVitals = function(){
+    console.log(`Student ${this.name} is ${this.height} tall, ${this.weight} lbs, ${this.age} old, and is a ${this.sex}.`);
+}
