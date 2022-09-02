@@ -8,3 +8,8 @@ class Polygon {
         yield side;
       }
     }
+   }
+  
+  const pentagon = new Polygon(1,2,3,4,5);
+  
+  console.log([...pentagon.getSides()]); // [1,2,3,4,5]
