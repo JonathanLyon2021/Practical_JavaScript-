@@ -40,7 +40,23 @@ p2.distance;    // undefined
 
 console.log(Point.displayName);      // "Point"
 console.log(Point.distance(p1, p2)); // 7.0710678118654755
+///////////////////////////////////////////////////////
+class Animal {
+  speak() {
+    return this;
+  }
+  static eat() {
+    return this;
+  }
+}
 
+const obj = new Animal();
+obj.speak(); // the Animal object
+const speak = obj.speak;
+speak(); // undefined
 
+Animal.eat() // class Animal
+const eat = Animal.eat;
+eat(); // undefined
 
  
