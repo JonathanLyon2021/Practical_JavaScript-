@@ -6,7 +6,7 @@ let Rectangle = class {
   };
   console.log(Rectangle.name, );
   // output: "Rectangle"
-  
+  //////////////////////////////////////////////////////////////
   // named
   Rectangle = class Rectangle2 {
     constructor(height, width) {
@@ -16,3 +16,9 @@ let Rectangle = class {
   };
   console.log(Rectangle.name);
   // output: "Rectangle2"
+//////////////////////////////////////////////////////////////
+ class Rectangle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
