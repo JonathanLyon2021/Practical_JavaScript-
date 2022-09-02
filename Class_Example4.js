@@ -22,3 +22,7 @@ let Rectangle = class {
       this.height = height;
       this.width = width;
     }
+         // Getter
+    get area() {
+      return this.calcArea();
+    }
